@@ -6,8 +6,9 @@ Sections Included:
 Header: Displays my name, a personal tagline, and a navigation bar with links to each section of the portfolio.
 About Me: A brief introduction about myself, including an image with a descriptive alt text.
 Skills: A list of my technical and soft skills, displayed in an organized manner.
-Projects: Highlights three or more projects with their titles, descriptions, and links for more details.
+Projects: Highlights projects with their titles, descriptions, and links for more details.
 Contact: Contains my contact information and a form that visitors can use to reach out.
+
 Key Features:
 Fully contained in a single HTML file for simplicity and easy deployment.
 Responsive design for an optimal viewing experience on different devices.

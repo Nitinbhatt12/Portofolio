@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header nav {
+            margin-top: 0.5rem;
+        }
+        header a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        .skills ul {
+            list-style-type: square;
+        }
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        input, textarea, button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 0.5rem;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .about-image {
+            float: right;
+            margin: 0 0 15px 15px;
+            width: 150px; /* Adjust size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nitin Bhatt</h1>
+        <p>"Designing Tomorrow, One Innovation at a Time."</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="IMG-20240608-WA0013.jpg" alt="Nitin's photo" class="about-image">
+        <p>
+            "My name is Nitin, an engineering student with a passion for technology, problem-solving, and innovation. I thrive at the intersection of software development, competitive programming, and cutting-edge machine learning applications. From optimizing complex algorithms to building smart education platforms through AI-driven solutions, I enjoy creating impactful projects. I also lead initiatives to foster a collaborative environment for algorithm enthusiasts and have a keen interest in cybersecurity. Whether it’s building scalable systems, mastering coding challenges, or crafting business models, I am committed to advancing engineering solutions that make a difference."
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, Javascript</li>
+            <li>Machine learning</li>
+            <li>Problem-solving</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Adaptability</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Project 1</h3>
+            <p>8Bit_Binary_Calculator</p>
+            <a href="https://github.com/Nitinbhatt12/8Bit_Binary_Calculator" target="_blank">View Project</a>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>SmartGrid-EnergyTrading-Manager</p>
+            <a href="https://github.com/Nitinbhatt12/-SmartGrid-EnergyTrading-Manager-" target="_blank">View Project</a>
+        </div>
+        <div>
+            <h3>Project 3</h3>
+            <p>CO2_Emission_Analysis_Project</p>
+            <a href="https://github.com/Nitinbhatt12/CO2_Emission_Analysis_Project" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <h4>If you'd like to get in touch, feel free to reach out via the form below.</h4>
+        <p>Email: nitinbhatt12032004@gmail.com</p>
+        <p><a href="https://linkedin.com/in/nitin-bhatt-92277a30b" target="_blank">Connect on LinkedIn</a></p>
+        <form action="mailto:nitinbhatt12032004@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+
